@@ -1,0 +1,73 @@
+.session-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-info h3 {
+  margin: 0;
+}
+
+.session-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+/* Status Colors */
+.status-badge.upcoming {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.status-badge.past {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.cancelled {
+  background-color: #fdecea;
+  color: #c62828;
+}
+
+/* Buttons */
+.primary-btn {
+  background-color: #5f9cff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: #f4f6f8;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.danger-btn {
+  background-color: #ffe5e5;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #c62828;
+  cursor: pointer;
+}
