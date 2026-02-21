@@ -1,0 +1,71 @@
+.booking-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.session-types,
+.professional-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 150px;
+}
+
+.card:hover {
+  border-color: #4caf50;
+}
+
+.selected {
+  border-color: #4caf50;
+  background-color: #e8f5e9;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 80px;
+}
+
+.summary-box {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f1f8f4;
+  border: 1px solid #4caf50;
+  margin-bottom: 20px;
+}
+
+.confirm-btn {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.confirm-btn:hover {
+  background-color: #45a049;
+}
